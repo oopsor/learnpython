@@ -3,5 +3,7 @@
 birth = int(raw_input('birth:'))
 if birth < 1990:
 	print '90前'
-else:
+elif birth < 2000:
 	print '90后'
+else:
+	print '00后'
